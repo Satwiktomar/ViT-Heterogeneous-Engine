@@ -1,0 +1,14 @@
+model:
+  name: "vit_small"
+  img_size: 32
+  patch_size: 4
+  embed_dim: 384
+  depth: 12
+  num_heads: 6
+  mlp_ratio: 4.0
+  num_classes: 10
+
+training:
+  batch_size: 64
+  lr: 3.0e-4
+  epochs: 50

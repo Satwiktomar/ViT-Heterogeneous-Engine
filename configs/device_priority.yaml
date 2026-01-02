@@ -1,0 +1,7 @@
+# Order of preference for backend selection
+priority:
+  - "CUDA_CUSTOM"   # Fast Custom Kernels
+  - "PYTORCH"       # Reliable Fallback
+  - "OPENCL"        # For AMD/Intel compatibility
+  
+low_memory_mode: false
