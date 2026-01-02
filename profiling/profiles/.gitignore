@@ -1,0 +1,4 @@
+# Ignore profiler output dumps
+*.nsys-rep
+*.json
+!README.md

@@ -1,0 +1,20 @@
+/* Force Dark Mode aesthetic */
+.stApp {
+    background-color: #0e1117;
+    color: #fafafa;
+}
+
+/* Style the metric boxes */
+div[data-testid="metric-container"] {
+    background-color: #262730;
+    border: 1px solid #4c4c4c;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+/* Custom Header Color */
+h1 {
+    color: #00e5ff !important;
+    font-family: 'Courier New', monospace;
+}
