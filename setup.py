@@ -1,6 +1,10 @@
+import os
+# Force PyTorch to accept the Arch Linux CUDA 13.0 compiler
+os.environ["TORCH_DONT_CHECK_COMPILER_VERSION"] = "1"
+
 from setuptools import setup
 from torch.utils.cpp_extension import BuildExtension, CUDAExtension
-import os
+
 
 # Helper to find files
 sources = [
