@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+venv/
+.env
+
+# C++/CUDA Build Artifacts
+build/
+dist/
+*.egg-info/
+*.o
+*.obj
+*.lib
+*.dll
+*.exe
+
+# Data & Logs
+/data/
+/logs/
+*.nsys-rep
+*.sqlite
